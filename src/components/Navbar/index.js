@@ -16,22 +16,22 @@ return (
 
 		<NavMenu>
 		<NavLink to='/about' activestyle>
-			About
+			Home
 		</NavLink>
 		<NavLink to='/events' activestyle>
-			Events
+			My Goals
 		</NavLink>
 		<NavLink to='/annual' activestyle>
-			Annual Report
+			Schedule
 		</NavLink>
 		<NavLink to='/team' activestyle>
-			Teams
+			Achievements
 		</NavLink>
 		<NavLink to='/blogs' activestyle>
-			Blogs
+			MyPlaylist
 		</NavLink>
 		<NavLink to='/sign-up' activestyle>
-			Sign Up
+			Calendar
 		</NavLink>
 		{/* Second Nav */}
 		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}

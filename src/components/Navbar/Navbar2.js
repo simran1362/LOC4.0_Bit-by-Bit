@@ -63,12 +63,27 @@ const ResponsiveAppBar = () => {
             >
                 <MenuItem onClick={handleCloseUserMenu}>
                   <Typography textAlign="center">
-                      Instagram
+                      Levels
                   </Typography>
                 </MenuItem>
                 <MenuItem onClick={handleCloseUserMenu}>
                   <Typography textAlign="center">
-                      FaceBook
+                      Rewards
+                  </Typography>
+                </MenuItem>
+                <MenuItem onClick={handleCloseUserMenu}>
+                  <Typography textAlign="center">
+                      Statistics
+                  </Typography>
+                </MenuItem>
+                <MenuItem onClick={handleCloseUserMenu}>
+                  <Typography textAlign="center">
+                      Trainers
+                  </Typography>
+                </MenuItem>
+                <MenuItem onClick={handleCloseUserMenu}>
+                  <Typography textAlign="center">
+                      Review
                   </Typography>
                 </MenuItem>
             </Menu>
@@ -79,7 +94,7 @@ const ResponsiveAppBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' }, color:'black' }}
           >
-            LOGO
+            FitMe
           </Typography>
 
           <Typography
@@ -88,11 +103,8 @@ const ResponsiveAppBar = () => {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, color:'black' }}
           >
-            LOGO
-          </Typography>
-          
-
-          
+            FitMe
+          </Typography>         
         </Toolbar>
       </Container>
     </AppBar>
