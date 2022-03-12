@@ -12,10 +12,11 @@ import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
 import Carousel from './components/carousel';
 import InfoCard from './components/card';
-
+import './components/footer/FooterStyles.css';
+import Footer from './components/footer/Footer';
 function App() {
 return (
-  <>
+    <>
 	<Router>
 	<Navbar />
 	<Navbar2/>
@@ -32,6 +33,7 @@ return (
 	</Router>
   <Carousel/>
   <InfoCard/>
+  <Footer/>
   </>
   
 );

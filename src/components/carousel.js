@@ -10,7 +10,7 @@ const Carousel = () => {
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://image.shutterstock.com/image-photo/young-man-on-treadmill-gym-600w-1250295559.jpg" class="d-block w-100" alt="..."/>
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d79c67a8-7603-46e4-b56f-fb9967f82eb2/debqlqh-e16d6b49-becb-430a-a9cb-258cd382cbca.jpg/v1/fill/w_1280,h_720,q_75,strp/black_mountains_dark_theme_wallpapers_by_mayankgorecha_debqlqh-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZDc5YzY3YTgtNzYwMy00NmU0LWI1NmYtZmI5OTY3ZjgyZWIyXC9kZWJxbHFoLWUxNmQ2YjQ5LWJlY2ItNDMwYS1hOWNiLTI1OGNkMzgyY2JjYS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.zWTmfYJc66Y81eVdi-jIzAV2YQSihmuAIsvrPhAPkwU" class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
       <img src="https://www.itl.cat/pngfile/big/319-3196923_rock-lee-wallpaper.jpg" class="d-block w-100" alt="..."/>
