@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import Navbar2 from './components/Navbar/Navbar2';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
@@ -11,14 +12,13 @@ import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
 import Carousel from './components/carousel';
 import InfoCard from './components/card';
-import { CalendarPicker } from '@mui/lab';
-
 
 function App() {
 return (
   <>
 	<Router>
 	<Navbar />
+	<Navbar2/>
 	<Routes>
 		<Route path='/' exact component={Home} />
 		<Route path='/about' component={About} />
