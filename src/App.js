@@ -10,7 +10,9 @@ import Teams from './pages/team';
 import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
 import Carousel from './components/carousel';
-import InfoCard from './components/info';
+import InfoCard from './components/card';
+import { CalendarPicker } from '@mui/lab';
+
 
 function App() {
 return (
