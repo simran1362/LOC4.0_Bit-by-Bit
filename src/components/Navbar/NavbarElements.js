@@ -23,13 +23,14 @@ height: 100%;
 cursor: pointer;
 
 &.active {
-	color: #000000;
+	color: #fff;
 }
 `;
 
 export const Bars = styled(FaBars)`
 display: none;
 color: #808080;
+
 @media screen and (max-width: 768px) {
 	display: block;
 	position: absolute;
