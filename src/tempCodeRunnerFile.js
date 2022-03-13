@@ -1,4 +1,13 @@
-<>
+import React from 'react'
+
+const tempCodeRunnerFile = () => {
+  return (
+	<div>tempCodeRunnerFile</div>
+  )
+}
+
+export default tempCodeRunnerFile;
+
 	// <Router>
 	// 	<Navbar/>
 	// 	{/* <Navbar2/> */}
