@@ -11,11 +11,16 @@ import MyPlaylist from './components/myPlaylist';
 import SignUp from './components/signup';
 import Carousel from './components/carousel';
 import InfoCard from './components/card';
+<<<<<<< HEAD
 import { Schedule } from '@mui/icons-material';
 
+=======
+import './components/footer/FooterStyles.css';
+import Footer from './components/footer/Footer';
+>>>>>>> 0746c6b974a5367658c0c438d3312a03db307d36
 function App() {
 return (
-  <>
+    <>
 	<Router>
 	<Navbar />
 	<Navbar2/>
@@ -31,6 +36,7 @@ return (
 	</Router>
   <Carousel/>
   <InfoCard/>
+  <Footer/>
   </>
   
 );
