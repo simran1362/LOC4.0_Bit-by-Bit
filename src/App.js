@@ -2,7 +2,7 @@ import './App.css';
 import {Nav,NavLink,Bars,NavMenu,NavBtn,NavBtnLink,} from './components/Navbar';
 import Navbar from './components/Navbar';
 import Navbar2 from './components/Navbar/Navbar2';
-import { BrowserRouter as Router, Routes, Route , useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route , useNavigate, Link } from 'react-router-dom';
 import Home from './components/home';
 //import from './components/home';
 import Mygoals from './components/mygoals';
@@ -11,13 +11,13 @@ import MyPlaylist from './components/myPlaylist';
 import SignUp from './components/signup';
 import Carousel from './components/carousel';
 import InfoCard from './components/card';
-<<<<<<< HEAD
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { Schedule } from '@mui/icons-material';
-
-=======
 import './components/footer/FooterStyles.css';
 import Footer from './components/footer/Footer';
->>>>>>> 0746c6b974a5367658c0c438d3312a03db307d36
+import Login from "./components/login/login";
+import signup from "./components/login/signup";
+
 function App() {
 return (
     <>
