@@ -1,47 +1,40 @@
 import React from 'react';
-import {
-Nav,
-NavLink,
-Bars,
-NavMenu,
-NavBtn,
-NavBtnLink,
-} from './NavbarElements';
+import {Nav,NavLink,Bars,NavMenu,NavBtn,NavBtnLink,} from './NavbarElements';
+
 
 const Navbar = () => {
 return (
 	<>
 	<Nav>
 		<Bars />
-
 		<NavMenu>
-		<NavLink to='/about' activestyle>
+		<NavLink target="_blank" to='/home' activestyle>
 			Home
 		</NavLink>
-		<NavLink to='/events' activestyle>
+		<NavLink target="_blank" to='/mygoals' activestyle>
 			My Goals
 		</NavLink>
-		<NavLink to='/annual' activestyle>
+		<NavLink target="_blank" to='/schedule' activestyle>
 			Schedule
 		</NavLink>
-		<NavLink to='/team' activestyle>
+		<NavLink target="_blank" to='/achievements' activestyle>
 			Achievements
 		</NavLink>
-		<NavLink to='/blogs' activestyle>
+		<NavLink target="_blank" to='/myPlaylist' activestyle>
 			MyPlaylist
 		</NavLink>
-		<NavLink to='/sign-up' activestyle>
+		<NavLink target="_blank" to='/calender' activestyle>
 			Calendar
 		</NavLink>
 		{/* Second Nav */}
 		{/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
 		</NavMenu>
 		<NavBtn>
-		<NavBtnLink to='/signin'>Sign In</NavBtnLink>
+		<NavBtnLink to='/signin'>SignIn</NavBtnLink>
+		<NavBtnLink to='/signup'>SignUp</NavBtnLink>
 		</NavBtn>
 	</Nav>
 	</>
 );
 };
-
 export default Navbar;
